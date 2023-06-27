@@ -3,13 +3,24 @@
 <head>
   <title>My Purple Shadow Box</title>
   <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+    }
+
     .box {
       width: 300px;
       height: 200px;
       background-color: #ffffff;
       box-shadow: 0 0 10px rgba(128, 0, 128, 0.5);
-      margin: 50px auto;
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .box h1 {
@@ -45,11 +56,11 @@
 </head>
 <body>
   <div class="box">
-    <h1>Title</h1>
-    <p>Description</p>
+    <h1>AstroArcade Partners</h1>
+    <p>Apply for our Partner Program to get early access to features for free and get help on all your projects for free!</p>
     <form>
       <input type="email" placeholder="Enter your email" required>
-      <input type="submit" value="Submit">
+      <input type="submit" value="Apply">
     </form>
   </div>
 </body>
